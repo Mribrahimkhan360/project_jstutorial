@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #00369a;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+/*=========== font start ============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*=========== font end ============*/
+.nav-link{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.fira-sans-bold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/**/
+.card-content{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    font-style: normal;
+}
+.search-form {
+    border: 1px solid #e7ebed;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: .5rem .75rem;
+    width: 100%;
+    outline-offset: -2px;
+    outline: none;
+    background-color: #ffffff;
+    color: #212529;
+}
+.list-group-item{
+    border: none;
+}
+
+.note, .info, .caution, .warning {
+    border: 1px solid #e9ecef;
+    border-left: .25rem solid;
+    margin: 16px 0;
+    padding: 1.25rem;
+}
+.note, .info {
+    border-left-color: #448aff;
+}
+.code{
+    scrollbar-color:#80808;
+    scrollbar-color:#ddd;
+}
+footer{
+    padding-top: 50px;
+    background-color: #111317;
+}
+.footer-title{
+    padding-top: 10px;
+    margin-left: 32px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.footer-container ul li a{
+    color: #898d9a;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color .2s;
+
+}
+.footer-bootom {
+    padding: 10px 0px;
+    font-size: 13px;
+    background-color: #000000;
+}
+.footer-items li a:hover{
+    color: #ffffff;
+}
+
