@@ -10,6 +10,10 @@ a{
 ul{
     list-style: none;
 }
+ul,ol{
+    padding: 0;
+    margin: 0;
+}
 ul li{
     list-style-type: none;
 }
@@ -67,8 +71,7 @@ ul li a{
     border-left-color: #448aff;
 }
 .code{
-    scrollbar-color:#80808;
-    scrollbar-color:#ddd;
+    background-color: #f8f7f4;
 }
 footer{
     padding-top: 50px;
@@ -76,7 +79,7 @@ footer{
 }
 .footer-title{
     padding-top: 10px;
-    margin-left: 32px;
+    /*margin-left: 32px;*/
     font-size: 12px;
     font-weight: 600;
     color: #ffffff;
